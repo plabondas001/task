@@ -28,15 +28,17 @@
     display: flex;
     background-image: url("../images/Banner\ Image.png");
     height: 600px;
-    width: 1320px;
+    width: 1300px;
     margin: 50px 300px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
 }
 
 .title {
-    color: white;
+    color: rgb(255, 255, 255);
+    padding-bottom: 80px;
 }
 
 .title .year {
@@ -86,6 +88,7 @@
     margin: 0 auto;
     margin-top: 50px;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .title-party{
@@ -116,4 +119,37 @@
 .sub-img {
     margin-top: 100px;
     margin-right: 30px;
+}
+/* details section  */
+.details{
+    width: 1300px;
+    height: 450px;
+    background: linear-gradient(#f6acac, #f8f6f6);
+    margin: 50px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.place{
+    margin-bottom: 10px;
+}
+.time{
+    margin-top: 10px;
+}
+.seco-btn{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.details a{
+    text-decoration: none;
 }
